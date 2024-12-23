@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="290" height="290" viewBox="0 0 290 290">
+  <g id="Demo_Importer" data-name="Demo Importer" transform="translate(18266 2064)">
+    <rect id="Rectangle_1867" data-name="Rectangle 1867" width="290" height="290" transform="translate(-18266 -2064)" fill="#fff"/>
+    <g id="import" transform="translate(-18206 -2004)">
+      <path id="Path_18769" data-name="Path 18769" d="M70.833,0l70.833,28.333L70.833,56.667,0,28.333Z" fill="#4caf50"/>
+      <path id="Path_18770" data-name="Path 18770" d="M0,4,70.833,32.333v85L0,89Z" transform="translate(0 24.333)" fill="#81c784"/>
+      <path id="Path_18771" data-name="Path 18771" d="M10,117.333,80.833,89V4L10,32.333Z" transform="translate(60.833 24.333)" fill="#66bb6a"/>
+      <path id="Path_18772" data-name="Path 18772" d="M70.833,0,0,28.333,70.833,56.667Z" fill="#429846"/>
+      <path id="Path_18773" data-name="Path 18773" d="M0,4V89l70.833,28.333v-85Z" transform="translate(0 24.333)" fill="#70ad73"/>
+      <path id="Path_18774" data-name="Path 18774" d="M57.042,11a46.042,46.042,0,1,0,46.042,46.042A46.095,46.095,0,0,0,57.042,11Z" transform="translate(66.917 66.917)" fill="#2196f3"/>
+      <path id="Path_18775" data-name="Path 18775" d="M55.646,57.285,39.709,74.993a5.325,5.325,0,0,1-7.905,0L15.866,57.285a5.321,5.321,0,0,1,3.952-8.868h8.854V20.083a7.083,7.083,0,0,1,14.167,0V48.417h8.854A5.321,5.321,0,0,1,55.646,57.285Z" transform="translate(88.202 79.083)" fill="#fff"/>
+      <path id="Path_18776" data-name="Path 18776" d="M57.042,11a46.042,46.042,0,0,0,0,92.083V88.917a5.324,5.324,0,0,1-3.953-1.757L37.152,69.452A5.321,5.321,0,0,1,41.1,60.583h8.854V32.25a7.077,7.077,0,0,1,7.083-7.083Z" transform="translate(66.917 66.917)" fill="#1d83d4"/>
+      <path id="Path_18777" data-name="Path 18777" d="M35.756,13a7.077,7.077,0,0,0-7.083,7.083V48.417H19.819a5.321,5.321,0,0,0-3.952,8.868L31.8,74.993a5.324,5.324,0,0,0,3.953,1.757Z" transform="translate(88.202 79.083)" fill="#dedede"/>
+    </g>
+  </g>
+</svg>

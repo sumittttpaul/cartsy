@@ -1,0 +1,17 @@
+{
+  "autoload": {
+    "classmap": [
+      "app"
+    ],
+    "files": [
+      "inc/template-hooks.php",
+      "inc/template-functions.php",
+      "inc/helper-functions.php",
+      "inc/template-categories.php",
+      "inc/template-tags.php",
+      "inc/themeOptionHelper.php",
+      "inc/themeCustomFunctions.php",
+      "inc/breadcrumb.php"
+    ]
+  }
+}

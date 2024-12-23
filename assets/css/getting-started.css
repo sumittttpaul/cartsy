@@ -1,0 +1,1188 @@
+.cartsy-theme-setup-main-wrapper {
+	width: 100%;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	padding: 60px 25px;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+@media screen and (max-width: 767px) {
+	.cartsy-theme-setup-main-wrapper {
+		padding: 25px;
+	}
+}
+
+.cartsy-theme-setup-main-wrapper * {
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.cartsy-theme-setup-content-wrapper {
+	background-color: #ffffff;
+	border-radius: 6px 6px 0 0;
+	border: 1px solid #f3f3f3;
+	padding: 30px 60px 60px 60px;
+}
+
+@media screen and (max-width: 1600px) {
+	.cartsy-theme-setup-content-wrapper {
+		padding: 40px;
+		padding-bottom: 60px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.cartsy-theme-setup-content-wrapper {
+		padding: 30px;
+	}
+}
+
+.cartsy-getting-started-description-wrapper {
+	margin-bottom: 60px;
+}
+
+.cartsy-theme-setup-content-wrapper h1,
+.cartsy-theme-setup-content-wrapper .cartsy-theme-setup-content-title {
+	font-size: 30px;
+	font-weight: 600;
+	color: #212121;
+	margin-bottom: 15px;
+	margin-top: 0;
+	display: block;
+	line-height: 1.2;
+}
+
+.cartsy-theme-setup-content-wrapper h3 {
+	font-size: 21px;
+	font-weight: 600;
+	color: #212121;
+	margin-bottom: 15px;
+	margin-top: 0;
+	display: block;
+	line-height: 1.2;
+}
+
+.cartsy-theme-setup-content-wrapper p {
+	font-size: 15px;
+	font-weight: normal;
+	color: #5a5a5a;
+	line-height: 2;
+	margin: 0;
+}
+
+/* Logo Wrapper */
+
+.cartsy-theme-setup-main-wrapper .cartsy-getting-started-logo-wrapper {
+	background-color: #f7f7f7;
+	border-radius: 6px;
+	width: 180px;
+	height: 54px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	overflow: hidden;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	margin-bottom: 0;
+	margin-left: auto;
+}
+
+@media screen and (max-width: 767px) {
+	.cartsy-theme-setup-main-wrapper .cartsy-getting-started-logo-wrapper {
+		margin-bottom: 25px;
+	}
+}
+
+.cartsy-getting-started-logo-wrapper .cartsy-logo {
+	-webkit-box-flex: 0;
+	-ms-flex: 0 0 105px;
+	flex: 0 0 105px;
+	max-width: 105px;
+	padding: 15px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+}
+
+.cartsy-getting-started-logo-wrapper .cartsy-logo img {
+	max-width: 100%;
+	height: auto;
+}
+
+.cartsy-getting-started-logo-wrapper .cartsy-getting-started-version {
+	-webkit-box-flex: 0;
+	-ms-flex: 0 0 75px;
+	flex: 0 0 75px;
+	max-width: 75px;
+	font-size: 13px;
+	font-weight: bold;
+	color: #212121;
+	height: 45px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	padding: 0 15px;
+	border-left: 1px solid #f1f1f1;
+}
+
+.cartsy-theme-setup-content-wrapper .description-text {
+	margin-bottom: 60px;
+}
+
+/* Welcome video */
+
+.cartsy-theme-setup-content-wrapper .cartsy-welcome-tour-video {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	overflow: hidden;
+	border-radius: 6px;
+}
+
+.cartsy-getting-started-column-wrapper {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	margin-top: 60px;
+	margin-left: -15px;
+	margin-right: -15px;
+}
+
+.cartsy-getting-started-column-wrapper .cartsy-getting-started-column {
+	width: 33.333%;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	padding: 0 15px;
+}
+
+@media screen and (max-width: 1024px) {
+	.cartsy-getting-started-column-wrapper .cartsy-getting-started-column {
+		width: 50%;
+		margin-bottom: 30px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.cartsy-getting-started-column-wrapper .cartsy-getting-started-column {
+		width: 100%;
+		margin-bottom: 30px;
+	}
+}
+
+/* Plugins page */
+
+.cartsy-theme-setup-content-wrapper .plugin-installation-notice {
+	font-size: 15px;
+	font-weight: normal;
+	color: #5a5a5a;
+	line-height: 2;
+	margin-top: 0;
+	margin-bottom: 20px;
+}
+
+.cartsy-theme-setup-content-wrapper .plugin-installation-notice a {
+	color: #5a5a5a;
+	font-size: 15px;
+	font-weight: bold;
+	text-decoration: underline;
+	-webkit-transition: color 0.3s;
+	-o-transition: color 0.3s;
+	transition: color 0.3s;
+}
+
+.cartsy-theme-setup-content-wrapper .plugin-installation-notice a:hover {
+	color: #212121;
+}
+
+.cartsy-plugins-activation-wrapper {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	margin: 0 -15px;
+}
+
+/* plugin box */
+
+.cartsy-plugins-bulk-list {
+	background-color: #feebc8;
+	border-radius: 6px;
+	border: 1px solid #fbd38d;
+	margin: 70px 0 40px;
+	padding: 16px 20px 15px;
+}
+
+.cartsy-plugins-bulk-list .cartsy-plugins-list-title {
+	margin-top: 0;
+	margin-bottom: 4px;
+	font-size: 18px;
+}
+
+.cartsy-plugins-bulk-list .plugin-installation-notice {
+	margin: 0;
+}
+
+.cartsy-plugins-bulk-list .plugin-installation-notice a {
+	font-weight: 400;
+	color: #212121;
+}
+
+.cartsy-plugins-bulk-list .plugin-installation-notice a:hover {
+	font-weight: 400;
+	color: #5a5a5a;
+	text-decoration: none;
+}
+
+.cartsy-necessary-plugins-column {
+	width: 25%;
+	padding: 15px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+}
+
+@media screen and (max-width: 1601px) {
+	.cartsy-necessary-plugins-column {
+		width: 33.3333%;
+	}
+}
+
+@media screen and (max-width: 1366px) {
+	.cartsy-necessary-plugins-column {
+		width: 50%;
+	}
+}
+
+@media screen and (max-width: 1024px) {
+	.cartsy-necessary-plugins-column {
+		width: 100%;
+	}
+}
+
+.cartsy-necessary-plugins {
+	width: 100%;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: row;
+	flex-direction: row;
+	border: 1px solid #e6e6e6;
+	background-color: #fff;
+	border-radius: 6px;
+	overflow: hidden;
+}
+
+.cartsy-recommended-plugins-list {
+	margin-top: 40px;
+}
+
+.cartsy-plugins-image {
+	width: 110px;
+	height: 110px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	background-color: #ffffff;
+	-ms-flex-negative: 0;
+	flex-shrink: 0;
+}
+
+.cartsy-plugins-image img {
+	max-width: 140px;
+}
+
+.cartsy-plugins-image img[alt*='Algolia'] {
+	max-width: 130px;
+}
+
+.cartsy-plugins-image img[alt*='Kirki'] {
+	max-width: 150px;
+}
+
+.cartsy-plugin-importance-tag-list {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: row;
+	flex-direction: row;
+	margin-bottom: 8px;
+}
+
+.cartsy-plugin-importance-tag {
+	font-size: 12px;
+	font-weight: 600;
+	height: 24px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	padding: 0 6px;
+	border-radius: 3px;
+	margin-right: 6px;
+	color: #2680eb;
+	background-color: #eaf1fa;
+}
+
+.cartsy-plugin-importance-tag.required {
+	color: #f56565;
+	background-color: #f8e3e3;
+}
+
+.cartsy-plugin-importance-tag.recommended {
+	color: #38a169;
+	background-color: #e2f8e9;
+}
+
+.cartsy-plugin-importance-tag:last-child,
+.cartsy-plugin-importance-tag:only-child {
+	margin-bottom: 0;
+}
+
+.cartsy-plugins-name-version {
+	width: 100%;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	-webkit-box-align: start;
+	-ms-flex-align: start;
+	align-items: flex-start;
+	padding: 15px;
+}
+
+.cartsy-plugins-name-version .plugin-name {
+	font-size: 15px;
+	font-weight: bold;
+	color: #5a5a5a;
+	margin-bottom: 16px;
+	line-height: 1.6;
+}
+
+.cartsy-plugins-name-version .plugin-install-btn a {
+	font-size: 14px;
+	font-weight: 400;
+	color: #5a5a5a;
+	text-decoration: underline;
+	-webkit-transition: color 0.3s;
+	-o-transition: color 0.3s;
+	transition: color 0.3s;
+}
+
+.cartsy-plugins-name-version .plugin-install-btn a:hover {
+	color: #212121;
+	text-decoration: none;
+}
+
+/* Plugin status table */
+
+.cartsy-theme-plugins-status-wrapper {
+	margin: 60px 0;
+}
+
+.cartsy-theme-plugins-status-wrapper:last-child {
+	margin-bottom: 0;
+}
+
+.cartsy-theme-plugins-status-wrapper h3 {
+	margin-bottom: 30px;
+}
+
+.cartsy-theme-plugins-status-table {
+	width: 620px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	background-color: #ffffff;
+	border-radius: 6px;
+	border: 1px solid #f1f1f1;
+	overflow: hidden;
+}
+
+@media screen and (max-width: 620px) {
+	.cartsy-theme-plugins-status-table {
+		width: 100%;
+	}
+}
+
+.cartsy-theme-plugins-status-table .plugin-status-table-row {
+	width: 100%;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+}
+
+.cartsy-theme-plugins-status-table .plugin-status-table-head {
+	width: 100%;
+	height: 48px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	background-color: #f9f9f9;
+}
+
+.cartsy-theme-plugins-status-table .plugin-status-table-body {
+	width: 100%;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+}
+
+.cartsy-theme-plugins-status-table .plugin-status-table-column {
+	font-size: 15px;
+	font-weight: bold;
+	color: #5a5a5a;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	border-bottom: 1px solid #f1f1f1;
+	border-right: 1px solid #f1f1f1;
+	padding: 0 15px;
+	width: 100%;
+	height: 70px;
+}
+
+.cartsy-theme-plugins-status-table .plugin-status-table-column:last-child {
+	border-right: 0;
+}
+
+.cartsy-theme-plugins-status-table
+	.plugin-status-table-row:last-child
+	.plugin-status-table-column {
+	border-bottom: 0;
+}
+
+.cartsy-theme-plugins-status-table
+	.plugin-status-table-head
+	.plugin-status-table-column {
+	font-size: 13px;
+	font-weight: 600;
+	color: #212121;
+	height: 100%;
+}
+
+.cartsy-theme-plugins-status-table .plugin-status-table-column.name-column {
+	width: 100%;
+}
+
+@media screen and (max-width: 620px) {
+	.cartsy-theme-plugins-status-table .plugin-status-table-column.name-column {
+		width: 100%;
+		-ms-flex-negative: 1;
+		flex-shrink: 1;
+	}
+	.cartsy-theme-plugins-status-table .plugin-status-table-column.status-column {
+		width: 135px;
+		-ms-flex-negative: 0;
+		flex-shrink: 0;
+	}
+}
+
+.cartsy-theme-plugins-status-table .plugin-status-table-column.status-column {
+	width: 135px;
+	-ms-flex-negative: 0;
+	flex-shrink: 0;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	text-align: center;
+}
+
+.cartsy-theme-plugins-status-table .plugin-status-table-footer {
+	background-color: #f9f9f9;
+	height: 80px;
+}
+
+.cartsy-theme-plugins-status-table
+	.plugin-status-table-footer
+	.plugin-status-table-row {
+	height: 100%;
+}
+
+.cartsy-theme-plugins-status-table
+	.plugin-status-table-footer
+	.plugin-status-table-row
+	.plugin-status-table-column {
+	font-weight: normal;
+	height: 100%;
+	border-top: 1px solid #f1f1f1;
+	border-right: 0;
+}
+
+.cartsy-theme-plugins-status-table
+	.plugin-status-table-footer
+	.plugin-status-table-row
+	.plugin-status-table-column
+	a {
+	font-size: 13px;
+	font-weight: bold;
+	color: #ffffff;
+	height: 37px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	background-color: #3a3a3a;
+	border-radius: 3px;
+	text-decoration: none;
+	padding: 0 15px;
+	-webkit-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.cartsy-theme-plugins-status-table
+	.plugin-status-table-footer
+	.plugin-status-table-row
+	.plugin-status-table-column
+	a:hover {
+	background-color: #212121;
+}
+
+/* basic setup */
+
+.cartsy-theme-setup-basic-wrapper {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+}
+
+.cartsy-theme-setup-basic-wrapper.bottom-margin {
+	margin-bottom: 60px;
+}
+
+.cartsy-theme-setup-basic-wrapper > h3 {
+	margin-bottom: 30px;
+}
+
+.cartsy-theme-setup-basic-wrapper .cartsy-theme-setup-basic-item {
+	-webkit-box-flex: 0;
+	-ms-flex: 0 0 16.6666666667%;
+	flex: 0 0 16.6666666667%;
+	max-width: 16.6666666667%;
+}
+
+.cartsy-theme-setup-basic-wrapper
+	.cartsy-theme-setup-basic-item
+	.cartsy-theme-setup-basic-status-icon {
+	width: 100%;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	position: relative;
+	-ms-flex-negative: 0;
+	flex-shrink: 0;
+	margin: 0 auto;
+	padding-bottom: 70px;
+}
+
+.cartsy-theme-setup-basic-wrapper
+	.cartsy-theme-setup-basic-item
+	.cartsy-theme-setup-basic-status-icon
+	img {
+	width: 30px;
+	height: auto;
+	z-index: 1;
+	position: relative;
+}
+
+.cartsy-theme-setup-basic-wrapper
+	.cartsy-theme-setup-basic-item
+	.cartsy-theme-setup-basic-status-icon:before {
+	content: '';
+	width: 1px;
+	height: 100%;
+	border-left: 1px dashed #e6e6e6;
+	position: absolute;
+	top: 0;
+	left: 50%;
+}
+
+.cartsy-theme-setup-basic-wrapper
+	.cartsy-theme-setup-basic-item
+	.cartsy-theme-setup-basic-status-icon:after {
+	content: '';
+	width: 100%;
+	height: 1px;
+	border-top: 1px dashed #e6e6e6;
+	position: absolute;
+	top: 15px;
+	left: 50%;
+}
+
+.cartsy-theme-setup-basic-wrapper
+	.cartsy-theme-setup-basic-item:last-child
+	.cartsy-theme-setup-basic-status-icon:after {
+	display: none;
+}
+
+.cartsy-theme-setup-basic-wrapper
+	.cartsy-theme-setup-basic-item
+	.cartsy-theme-setup-basic-infos {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	width: 100%;
+	text-align: center;
+	padding-top: 10px;
+}
+
+.cartsy-theme-setup-basic-wrapper
+	.cartsy-theme-setup-basic-item:last-child
+	.cartsy-theme-setup-basic-infos {
+	padding-bottom: 0;
+}
+
+.cartsy-theme-setup-basic-wrapper
+	.cartsy-theme-setup-basic-item
+	.cartsy-theme-setup-basic-infos
+	h4 {
+	font-size: 14px;
+	font-weight: bold;
+	color: #5a5a5a;
+	margin-top: 7px;
+	margin-bottom: 15px;
+}
+
+.cartsy-theme-setup-basic-wrapper
+	.cartsy-theme-setup-basic-item
+	.cartsy-theme-setup-basic-infos
+	p {
+	font-size: 14px;
+	font-weight: normal;
+	color: #5a5a5a;
+	margin: 0;
+	margin-bottom: 20px;
+}
+
+.cartsy-theme-setup-basic-wrapper
+	.cartsy-theme-setup-basic-item
+	.cartsy-theme-setup-basic-infos
+	a {
+	font-size: 12px;
+	font-weight: bold;
+	color: #ffffff;
+	height: 32px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	background-color: #3a3a3a;
+	border-radius: 3px;
+	text-decoration: none;
+	padding: 0 12px;
+	-webkit-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+	width: auto;
+}
+
+.cartsy-theme-setup-basic-wrapper
+	.cartsy-theme-setup-basic-item
+	.cartsy-theme-setup-basic-infos
+	a:hover {
+	background-color: #212121;
+}
+
+@media screen and (max-width: 1100px) {
+	.cartsy-theme-setup-basic-wrapper {
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-ms-flex-direction: column;
+		flex-direction: column;
+	}
+	.cartsy-theme-setup-basic-wrapper .cartsy-theme-setup-basic-item {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		width: 100%;
+	}
+	.cartsy-theme-setup-basic-wrapper
+		.cartsy-theme-setup-basic-item
+		.cartsy-theme-setup-basic-infos {
+		padding-left: 30px;
+		padding-bottom: 60px;
+		width: 100%;
+		-webkit-box-align: start;
+		-ms-flex-align: start;
+		align-items: flex-start;
+	}
+	.cartsy-theme-setup-basic-wrapper
+		.cartsy-theme-setup-basic-item
+		.cartsy-theme-setup-basic-status-icon {
+		width: 30px;
+		padding-bottom: 0;
+	}
+	.cartsy-theme-setup-basic-wrapper
+		.cartsy-theme-setup-basic-item
+		.cartsy-theme-setup-basic-status-icon:after {
+		display: none;
+	}
+	.cartsy-theme-setup-basic-wrapper
+		.cartsy-theme-setup-basic-item
+		.cartsy-theme-setup-basic-status-icon:before {
+		top: 40%;
+	}
+	.cartsy-theme-setup-basic-wrapper .cartsy-theme-setup-basic-item {
+		-webkit-box-flex: initial;
+		-ms-flex: initial;
+		flex: initial;
+		max-width: none;
+	}
+	.cartsy-theme-setup-basic-wrapper
+		.cartsy-theme-setup-basic-item:last-child
+		.cartsy-theme-setup-basic-status-icon:before {
+		display: none;
+	}
+}
+
+/* Misc Page */
+
+.cartsy-misc-info-block {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	height: 100%;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	padding: 0px 30px 60px;
+	border-radius: 6px;
+	border: 1px solid #f1f1f1;
+	text-decoration: none;
+}
+
+.cartsy-misc-info-block .cartsy-misc-info-img-wrapper {
+	width: 100%;
+	height: 220px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	overflow: hidden;
+}
+
+.cartsy-misc-info-block .cartsy-misc-info-img-wrapper img {
+	max-width: 100%;
+	height: auto;
+}
+
+.cartsy-misc-info-block h3 {
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.cartsy-misc-info-block p {
+	text-align: center;
+}
+
+.cartsy-getting-started-faq-section {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	margin-top: 60px;
+}
+
+.cartsy-getting-started-faq-section .cartsy-getting-started-faq-wrapper {
+	margin-top: 20px;
+}
+
+.cartsy-getting-started-faq-section .cartsy-getting-started-faq-wrapper h3 {
+	font-size: 15px;
+	font-weight: bold;
+	color: #212121;
+	margin: 0;
+	padding: 30px;
+	background: #f7f7f7;
+	border-radius: 6px;
+	margin-top: 15px;
+	cursor: pointer;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+}
+
+.cartsy-getting-started-faq-section
+	.cartsy-getting-started-faq-wrapper
+	h3:focus {
+	outline: 0;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
+.cartsy-getting-started-faq-section
+	.cartsy-getting-started-faq-wrapper
+	h3.ui-accordion-header-active {
+	border-radius: 6px 6px 0 0;
+}
+
+.cartsy-getting-started-faq-section
+	.cartsy-getting-started-faq-wrapper
+	h3:first-child {
+	margin-top: 0;
+}
+
+.cartsy-getting-started-faq-section
+	.cartsy-getting-started-faq-wrapper
+	h3
+	.faq-header-icon-expand,
+.cartsy-getting-started-faq-section
+	.cartsy-getting-started-faq-wrapper
+	h3
+	.faq-header-icon-collapse {
+	display: none;
+	width: 15px;
+	height: 15px;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	margin-right: 30px;
+}
+
+.cartsy-getting-started-faq-section
+	.cartsy-getting-started-faq-wrapper
+	h3
+	.faq-header-icon-expand
+	svg,
+.cartsy-getting-started-faq-section
+	.cartsy-getting-started-faq-wrapper
+	h3
+	.faq-header-icon-collapse
+	svg {
+	width: 100%;
+	height: 100%;
+}
+
+.cartsy-getting-started-faq-section
+	.cartsy-getting-started-faq-wrapper
+	h3
+	.faq-header-icon-expand.hide,
+.cartsy-getting-started-faq-section
+	.cartsy-getting-started-faq-wrapper
+	h3
+	.faq-header-icon-collapse.hide {
+	display: none;
+}
+
+.cartsy-getting-started-faq-section
+	.cartsy-getting-started-faq-wrapper
+	h3
+	.faq-header-icon-expand.show,
+.cartsy-getting-started-faq-section
+	.cartsy-getting-started-faq-wrapper
+	h3
+	.faq-header-icon-collapse.show {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+}
+
+.cartsy-getting-started-faq-section
+	.cartsy-getting-started-faq-wrapper
+	.cartsy-getting-started-faq-content {
+	border-top: 1px solid #e6e6e6;
+	padding: 40px 60px;
+	padding-left: 75px;
+	border-radius: 0 0 6px 6px;
+}
+
+.requirement-success {
+	color: #36ab80;
+}
+
+.requirement-error {
+	color: #fd5c63;
+}
+
+.cartsy-installation-progress {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	border-left: 1px solid #f1f1f1;
+	margin-bottom: 1px;
+}
+
+.cartsy-installation-progress-item {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	padding: 15px 30px;
+	min-height: 65px;
+	background-color: #fff;
+	font-size: 13px;
+	font-weight: bold;
+	color: #5a5a5a;
+	text-decoration: none;
+	border: 1px solid #f1f1f1;
+	border-left: 0;
+	margin-top: -1px;
+	-webkit-transition: 0.15s ease-in-out;
+	-o-transition: 0.15s ease-in-out;
+	transition: 0.15s ease-in-out;
+}
+
+.cartsy-installation-progress-item:focus {
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	outline: 0;
+}
+
+.cartsy-installation-progress-name {
+	margin-right: 20px;
+}
+
+.cartsy-theme-setup-title,
+.cartsy-theme-setup-content-wrapper .cartsy-theme-setup-title {
+	margin-bottom: 40px;
+}
+
+.cartsy-theme-setup-import-demo-data {
+	width: 300px;
+	max-width: 100%;
+	margin: 0 auto;
+	margin-top: 70px;
+	cursor: not-allowed;
+}
+
+.cartsy-theme-setup-import-demo-data a,
+.cartsy-theme-setup-activation-data form button {
+	display: -webkit-inline-box;
+	display: -ms-inline-flexbox;
+	display: inline-flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	text-align: center;
+	background-color: #3a3a3a;
+	color: #fff;
+	border-radius: 6px;
+	height: 44px;
+	min-width: 300px;
+	max-width: 100%;
+	font-size: 15px;
+	font-weight: bold;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+/* Theme license key style */
+
+.cartsy-theme-setup-activation-data {
+	margin-top: 70px;
+}
+
+.cartsy-theme-setup-activation-data .notice {
+	margin-left: 0;
+	margin-right: 0;
+	margin-bottom: 30px;
+}
+
+.cartsy-theme-setup-activation-data form {
+	max-width: 760px;
+}
+
+.cartsy-theme-setup-activation-data .license-key {
+	width: 60%;
+	margin-right: 17px;
+	padding: 7px;
+}
+
+.cartsy-theme-setup-activation-data form button {
+	min-width: 180px;
+	width: 35%;
+}
+
+/* Demo data style */
+
+.cartsy-theme-setup-import-demo-data a.disabled {
+	background-color: #d9d9d9;
+	pointer-events: none;
+}
+
+.cartsy-theme-setup-pagination {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	overflow: hidden;
+	background: #fff;
+	border-radius: 0 0 6px 6px;
+}
+
+.cartsy-theme-setup-pagination a {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	text-align: center;
+	height: 55px;
+	padding: 10px;
+	background-color: #fff;
+	border: 1px solid #f3f3f3;
+	border-top: 0;
+	border-right: 0;
+	-webkit-box-flex: 0;
+	-ms-flex: 0 0 50%;
+	flex: 0 0 50%;
+	max-width: 50%;
+	font-size: 15px;
+	font-weight: bold;
+	color: #212121;
+	text-decoration: none;
+	-webkit-transition: 0.15s ease-in-out;
+	-o-transition: 0.15s ease-in-out;
+	transition: 0.15s ease-in-out;
+}
+
+.cartsy-theme-setup-pagination a:last-child {
+	border-left-color: #f3f3f3;
+}
+
+.cartsy-theme-setup-pagination a:hover {
+	background-color: #212121;
+	color: #fff;
+	border-color: #212121;
+}
+
+.cartsy-theme-setup-pagination a:focus {
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	outline: 0;
+}
+
+.cartsy-theme-setup-pagination a.next {
+	margin-left: auto;
+}
+
+.cartsy-theme-setup-pagination a.disabled {
+	opacity: 0.4;
+	pointer-events: none;
+}
+
+.cartsy-theme-setup-pagination a span {
+	margin: 0 10px;
+	color: #212121;
+	-webkit-transition: 0.15s ease-in-out;
+	-o-transition: 0.15s ease-in-out;
+	transition: 0.15s ease-in-out;
+	font-size: 16px;
+	width: 16px;
+	height: 16px;
+	vertical-align: middle;
+}
+
+.cartsy-theme-setup-pagination a:hover span {
+	color: #fff;
+}

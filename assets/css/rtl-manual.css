@@ -1,0 +1,164 @@
+/* ------------------------------------------------------------------------------------
+* rtl-manual.css only use for manual fixing like left, right arrow icon issue fixing
+* also this file dynamically load when user site is in RTL mode
+/* ---------------------------------------------------------------------------------- */
+.rtl
+	.navigation-drawer
+	.cartsy-menu-drawer
+	.cartsy-menu-wrapper
+	.cartsy-main-menu
+	li
+	.menu-drop-down-selector.children-active:before {
+	-webkit-transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+	transform: rotate(90deg);
+}
+
+/* product gallery next, prev btn issue fix */
+.rtl.single-product
+	.product
+	.woocommerce-product-gallery
+	.flex-control-thumbs
+	.swiper-button-next:after,
+.rtl.cartsy-woocommerce.woocommerce
+	#content
+	.product
+	.woocommerce-product-gallery
+	.flex-control-thumbs
+	.swiper-button-next:after,
+.rtl.single-product
+	.cartsy-woocommerce.woocommerce
+	ul.products
+	li
+	.woocommerce-product-gallery
+	.flex-control-thumbs
+	.swiper-button-next:after,
+.rtl.cartsy-woocommerce.woocommerce
+	ul.products
+	.single-product
+	li
+	.woocommerce-product-gallery
+	.flex-control-thumbs
+	.swiper-button-next:after,
+.rtl.cartsy-woocommerce.woocommerce
+	#content
+	ul.products
+	li
+	.woocommerce-product-gallery
+	.flex-control-thumbs
+	.swiper-button-next:after,
+.rtl.cartsy-woocommerce.woocommerce
+	ul.products
+	#content
+	li
+	.woocommerce-product-gallery
+	.flex-control-thumbs
+	.swiper-button-next:after,
+.rtl.single-product
+	.product
+	.woocommerce-product-gallery
+	.flex-control-thumbs
+	.swiper-button-prev:after,
+.rtl.cartsy-woocommerce.woocommerce
+	#content
+	.product
+	.woocommerce-product-gallery
+	.flex-control-thumbs
+	.swiper-button-prev:after,
+.rtl.single-product
+	.cartsy-woocommerce.woocommerce
+	ul.products
+	li
+	.woocommerce-product-gallery
+	.flex-control-thumbs
+	.swiper-button-prev:after,
+.rtl.cartsy-woocommerce.woocommerce
+	ul.products
+	.single-product
+	li
+	.woocommerce-product-gallery
+	.flex-control-thumbs
+	.swiper-button-prev:after,
+.rtl.cartsy-woocommerce.woocommerce
+	#content
+	ul.products
+	li
+	.woocommerce-product-gallery
+	.flex-control-thumbs
+	.swiper-button-prev:after,
+.rtl.cartsy-woocommerce.woocommerce
+	ul.products
+	#content
+	li
+	.woocommerce-product-gallery
+	.flex-control-thumbs
+	.swiper-button-prev:after {
+	-webkit-transform: rotate(180deg);
+	-ms-transform: rotate(180deg);
+	transform: rotate(180deg);
+}
+
+/* social share plugin issue fix */
+.rtl .wpusb-item:last-child {
+	margin-right: 8px;
+}
+
+.rtl .wpusb-item .wpusb-btn span {
+	margin-left: 0;
+	margin-right: 5px;
+}
+
+.rtl .wpusb .wpusb-count {
+	margin-left: 0;
+	margin-right: 12px;
+}
+
+.rtl .wpusb-count:after {
+	right: auto;
+	left: 100%;
+	-webkit-transform: rotate(180deg);
+	-ms-transform: rotate(180deg);
+	transform: rotate(180deg);
+}
+
+/* yith wishlist heart icon issue fix on product card */
+.rtl .add-to-wishlist-before_image .yith-wcwl-add-to-wishlist {
+	left: auto;
+	right: 10px;
+	height: auto !important;
+}
+
+/* redq demo switcher purchase btn issue fix */
+.rtl .redq-purchase-button .purchase-btn-text {
+	margin-left: 0;
+	margin-right: 8px;
+}
+
+/* -----------------------------------------------
+* main menu, single post nav, single product 
+* floating nav and comment replay icon issue fix 
+----------------------------------------------- */
+.rtl
+	.navigation-drawer
+	.cartsy-menu-drawer
+	.cartsy-menu-wrapper
+	.cartsy-main-menu
+	li
+	.menu-drop-down-selector::before,
+.rtl.single-post
+	.post-navigation
+	.nav-links
+	a.nav-next
+	.thumb-img:empty::before,
+.rtl.single-post
+	.post-navigation
+	.nav-links
+	a.nav-previous
+	.thumb-img:empty::before,
+.rtl .cartsy-product-pagination > a[rel][rel='next'] i,
+.rtl .cartsy-product-pagination > a[rel][rel='prev'] i,
+.rtl #comments .comment-card .comment-content .action .comment-reply-link i {
+	-webkit-transform: rotate(180deg);
+	-ms-transform: rotate(180deg);
+	transform: rotate(180deg);
+}
